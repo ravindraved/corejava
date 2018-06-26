@@ -10,6 +10,7 @@
 .project
 .classpath
 .tern-project
+.pydevproject
 .pmd
 
 # Temp and Backup Files #
@@ -35,6 +36,7 @@ Servers
 .sonarlint
 .idea
 *.iml
+venv
 # Packages #
 ############
 # it's better to unpack these files and commit the raw source
