@@ -1,43 +1,43 @@
 package in.rv.study.ssa;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.arrays;
+import java.util.scanner;
 
 /*
- * ssa -> Simple School Assignments
+ * ssa -> simple school assignments
  *
- * Given two words check if 2nd world contains exactly same characters that are in word1
+ * given two words check if 2nd world contains exactly same characters that are in word1
  *
  */
-public class Check2WordsCharMatch {
+public class check2wordscharmatch {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner console = new Scanner(System.in);
-		System.out.println("Type Word 1");
-		String strWord1 = console.nextLine();
+	public static void main(string[] args) {
+		// todo auto-generated method stub
+		scanner console = new scanner(system.in);
+		system.out.println("type word 1");
+		string strword1 = console.nextline();
 
-		System.out.println("Type Word 2");
-		String strWord2 = console.nextLine();
+		system.out.println("type word 2");
+		string strword2 = console.nextline();
 
-		char[] charArray1 = strWord1.toUpperCase().toCharArray();
-		Arrays.sort(charArray1);
+		char[] chararray1 = strword1.touppercase().tochararray();
+		arrays.sort(chararray1);
 
-		char[] charArray2 = strWord2.toUpperCase().toCharArray();
-		Arrays.sort(charArray2);
+		char[] chararray2 = strword2.touppercase().tochararray();
+		arrays.sort(chararray2);
 
 		if (
 
-		(Arrays.toString(charArray1)).equals((Arrays.toString(charArray2))
+		(arrays.tostring(chararray1)).equals((arrays.tostring(chararray2))
 
 		)
 
 		) {
 
-			System.out.println("Matches!!");
+			system.out.println("matches!!");
 
 		} else {
-			System.out.println("No Match!!");
+			system.out.println("no match!!");
 		}
 
 	}
